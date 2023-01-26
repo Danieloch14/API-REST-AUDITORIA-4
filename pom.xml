@@ -120,6 +120,25 @@
     		<version>2.1.214</version><!--$NO-MVN-MAN-VER$-->
     		<scope>test</scope>
 		</dependency>
+		
+		
+		<!-- JasperReports -->
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>6.20.0</version>
+        </dependency>
+
+        <!-- Servlet (Permite la descarga de Reportes) -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>3.0-alpha-1</version>
+        </dependency>
+
+        
+   
+		
 		 <!-- swagger -->
 		<dependency>
 	        <groupId>io.springfox</groupId>
